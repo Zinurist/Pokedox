@@ -192,7 +192,7 @@ public class Pokedox extends JFrame{
 			table.setValueAt("", prevRow, prevColumn);
 			table.setValueAt("XXXXXXXXXX", row, column);
 	
-			result.setText("Index "+index+", box "+((index/30)+1)+", row "+(row+1)+", column "+(column+1));
+			result.setText("Index "+index+", box "+(((index-1)/30)+1)+", row "+(row+1)+", column "+(column+1));
 			
 			prevRow=row;
 			prevColumn=column;
